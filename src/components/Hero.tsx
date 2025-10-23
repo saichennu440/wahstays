@@ -1,6 +1,6 @@
 import { Instagram, MessageCircle, ChevronDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
-
+import { FaWhatsapp } from 'react-icons/fa';
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
 
@@ -66,7 +66,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="btn-secondary flex items-center gap-2 w-full sm:w-auto justify-center"
           >
-            <MessageCircle size={20} />
+            <FaWhatsapp size={20} />
             <span>Chat on WhatsApp</span>
           </a>
         </div>

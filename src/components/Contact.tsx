@@ -1,6 +1,6 @@
 import { Instagram, MessageCircle, Phone, Mail } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
-
+import { FaWhatsapp } from 'react-icons/fa';
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
@@ -71,7 +71,7 @@ const Contact = () => {
           >
             <div className="flex items-start gap-4">
               <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                <MessageCircle size={32} />
+                <FaWhatsapp size={32} />
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-display font-bold mb-2">
