@@ -6,7 +6,7 @@ interface SplashScreenProps {
 
 const SplashScreen = ({ onComplete }: SplashScreenProps) => {
   const [animationPhase, setAnimationPhase] = useState<'enter' | 'exit'>('enter');
-  const words = ['Rooms', 'Comfort', 'Goa'];
+  const words = ['Stays', 'Events', 'Adventures'];
 
   useEffect(() => {
     const enterTimer = setTimeout(() => {
@@ -25,7 +25,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
 
   return (
     <div
-      className={`fixed inset-0 z-[100] bg-gradient-to-br from-ocean-600 via-ocean-500 to-sand-400 flex items-center justify-center transition-all duration-1000 origin-bottom ${
+      className={`fixed inset-0 z-[100] bg-gradient-to-br from-gray-800 via-gray-500 to-orange-400 flex items-center justify-center transition-all duration-1000 origin-bottom ${
         animationPhase === 'exit' ? 'translate-y-[-100%] opacity-0' : 'translate-y-0 opacity-100'
       }`}
     >
@@ -65,7 +65,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
             <div className="absolute inset-0 bg-white/30 rounded-full animate-pulse"></div>
             <div className="relative w-full h-full bg-white/90 rounded-full flex items-center justify-center backdrop-blur-sm shadow-2xl">
               <svg
-                className="w-12 h-12 text-ocean-600"
+                className="w-12 h-12 text-gray-800"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
 
         {/* Main title with staggered letter animation */}
         <h1
-          className={`text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-4 transition-all duration-1000 ${
+          className={`text-4xl md:text-6xl lg:text-7xl font-display font-bold text-gray-800 mb-4 transition-all duration-1000 ${
             animationPhase === 'enter'
               ? 'opacity-100 translate-y-0 blur-0'
               : 'opacity-0 translate-y-8 blur-sm'
@@ -92,7 +92,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
             textShadow: '0 4px 30px rgba(0,0,0,0.3), 0 0 40px rgba(255,255,255,0.1)',
           }}
         >
-          {'Welcome to WahStays'.split('').map((char, index) => (
+          {'Arriving at WahStays'.split('').map((char, index) => (
             <span
               key={index}
               className="inline-block animate-wave"
@@ -118,7 +118,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
         </div>
 
         {/* Words with fade-in animation */}
-        <div className="flex items-center justify-center gap-4 text-golden-100 text-lg md:text-xl font-medium mb-12">
+        <div className="flex items-center justify-center gap-4 text-orange-400 text-lg md:text-xl font-medium mb-12">
           {words.map((word, index) => (
             <span
               key={word}

@@ -1,5 +1,6 @@
 import { Users, Wifi, Wind, Coffee, Sparkles, Instagram, MessageCircle } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 interface Room {
   id: string;
@@ -104,7 +105,7 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
         </p>
 
         <div className="flex items-center gap-2 text-sand-700 mb-4">
-          <Users size={18} className="text-ocean-600" />
+          <Users size={18} className="text-gray-800" />
           <span className="text-sm font-medium">Up to {room.maxOccupancy} guests</span>
         </div>
 
@@ -124,7 +125,7 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
             href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDc5MTk1MDI3Nzk0MDE3?story_media_id=3681385017469871536&igsh=MW9nMWI3NTA1MGV5eA=="
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 bg-ocean-500 hover:bg-ocean-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+            className="flex-1 flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
           >
             <Instagram size={18} />
             <span>Instagram</span>
@@ -134,9 +135,9 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
             href="https://wa.me/919876543210"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+            className="flex-1 flex items-center justify-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
           >
-            <MessageCircle size={18} />
+            <FaWhatsapp size={18} />
             <span>WhatsApp</span>
           </a>
         </div>

@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container-custom section-padding">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-2xl font-display font-bold mb-4 text-golden-400">
-              WahStays
+            <h3 className="text-2xl font-display font-bold mb-4 text-orange-400">
+                        <img src="./logo2.png" alt="WahStays Logo" className="h-10 md:h-12" />
             </h3>
             <p className="text-sand-300 mb-4">
               Experience comfort and authenticity in the heart of coastal Goa. Your perfect stay awaits.
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-display font-semibold mb-4 text-golden-400">
+            <h4 className="text-lg font-display font-semibold mb-4 text-orange-400">
               Quick Links
             </h4>
             <ul className="space-y-2">
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-display font-semibold mb-4 text-golden-400">
+            <h4 className="text-lg font-display font-semibold mb-4 text-orange-400">
               Contact Info
             </h4>
             <ul className="space-y-3">

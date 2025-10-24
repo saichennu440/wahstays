@@ -46,7 +46,7 @@ const Header = () => {
           onClick={(e) => handleNavClick(e, '#home')}
           className="text-2xl md:text-3xl font-display font-bold text-sand-800 hover:text-ocean-600 transition-colors"
         >
-          WahStays
+          <img src="./logo2.png" alt="WahStays Logo" className="h-10 md:h-12" />
         </a>
 
         <div className="hidden md:flex items-center gap-8">

@@ -48,11 +48,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-ocean-500 hover:bg-ocean-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
+    @apply bg-gray-800 hover:bg-gray-600 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
   }
 
   .btn-secondary {
-    @apply bg-golden-400 hover:bg-golden-500 text-sand-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
+    @apply bg-orange-400 hover:bg-orange-500 text-sand-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
   }
 
   .section-padding {

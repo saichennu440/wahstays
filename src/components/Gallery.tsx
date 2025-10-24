@@ -157,7 +157,7 @@ const Gallery = () => {
         >
           <button
             onClick={closeLightbox}
-            className="absolute top-4 right-4 text-white hover:text-golden-400 transition-colors z-10 p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded"
+            className="absolute top-4 right-4 text-white hover:text-orange-400 transition-colors z-10 p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded"
             aria-label="Close gallery"
           >
             <X size={32} />
@@ -168,7 +168,7 @@ const Gallery = () => {
               e.stopPropagation();
               handlePrevious();
             }}
-            className="absolute left-4 text-white hover:text-golden-400 transition-colors p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded"
+            className="absolute left-4 text-white hover:text-orange-400 transition-colors p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded"
             aria-label="Previous image"
           >
             <ChevronLeft size={48} />
@@ -179,7 +179,7 @@ const Gallery = () => {
               e.stopPropagation();
               handleNext();
             }}
-            className="absolute right-4 text-white hover:text-golden-400 transition-colors p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded"
+            className="absolute right-4 text-white hover:text-orange-400 transition-colors p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded"
             aria-label="Next image"
           >
             <ChevronRight size={48} />

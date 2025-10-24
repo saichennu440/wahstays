@@ -63,7 +63,7 @@ const Location = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-golden-100 flex items-center justify-center flex-shrink-0">
-                  <Navigation className="text-golden-600" size={24} />
+                  <Navigation className="text-orange-500" size={24} />
                 </div>
                 <div>
                   <h3 className="text-xl font-display font-semibold text-sand-800 mb-2">
