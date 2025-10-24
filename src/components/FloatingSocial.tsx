@@ -8,7 +8,7 @@ const FloatingSocial = () => {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
       <a
-        href="https://instagram.com/wahstays"
+        href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDc5MTk1MDI3Nzk0MDE3?story_media_id=3681385017469871536&igsh=MW9nMWI3NTA1MGV5eA=="
         target="_blank"
         rel="noopener noreferrer"
         className="group relative"

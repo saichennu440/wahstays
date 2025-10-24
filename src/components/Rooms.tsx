@@ -121,7 +121,7 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
 
         <div className="flex gap-3 mt-6">
           <a
-            href="https://instagram.com/wahstays"
+            href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDc5MTk1MDI3Nzk0MDE3?story_media_id=3681385017469871536&igsh=MW9nMWI3NTA1MGV5eA=="
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 bg-ocean-500 hover:bg-ocean-600 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
