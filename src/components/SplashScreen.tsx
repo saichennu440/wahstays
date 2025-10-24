@@ -60,6 +60,15 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
               : 'opacity-0 scale-50 -rotate-180'
           }`}
         >
+          <img src="/splashlogo.png" alt="WahStays Logo" className="h-16 md:h-18 mx-auto mb-6" />
+        </div>
+        {/* <div
+          className={`mb-8 transition-all duration-1000 ${
+            animationPhase === 'enter'
+              ? 'opacity-100 scale-100 rotate-0'
+              : 'opacity-0 scale-50 -rotate-180'
+          }`}
+        >
           <div className="w-24 h-24 mx-auto relative">
             <div className="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
             <div className="absolute inset-0 bg-white/30 rounded-full animate-pulse"></div>
@@ -79,11 +88,11 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
               </svg>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Main title with staggered letter animation */}
         <h1
-          className={`text-4xl md:text-6xl lg:text-7xl font-display font-bold text-gray-800 mb-4 transition-all duration-1000 ${
+          className={`text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-4 transition-all duration-1000 ${
             animationPhase === 'enter'
               ? 'opacity-100 translate-y-0 blur-0'
               : 'opacity-0 translate-y-8 blur-sm'
@@ -118,7 +127,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
         </div>
 
         {/* Words with fade-in animation */}
-        <div className="flex items-center justify-center gap-4 text-orange-400 text-lg md:text-xl font-medium mb-12">
+        <div className="flex items-center justify-center gap-4 text-gray-800 text-lg md:text-xl font-medium mb-12">
           {words.map((word, index) => (
             <span
               key={word}

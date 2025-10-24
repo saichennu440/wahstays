@@ -30,8 +30,7 @@ const Contact = () => {
             Get in Touch
           </h2>
           <p className="text-lg text-sand-600 max-w-2xl mx-auto">
-            Ready to book your perfect Goa getaway? Reach out to us through your
-            preferred channel and we'll help you plan an unforgettable stay.
+           Every great trip begins with a conversation. Reach out and let’s turn your stay into an unforgettable story.
           </p>
         </div>
 
@@ -61,7 +60,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/918897312137"
             target="_blank"
             rel="noopener noreferrer"
             className={`group bg-gradient-to-br from-green-500 to-green-600 p-8 rounded-2xl text-white shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 ${
@@ -80,7 +79,7 @@ const Contact = () => {
                 <p className="text-white/90 mb-3">
                   Get quick responses to your queries and book directly through WhatsApp.
                 </p>
-                <p className="font-semibold text-lg">+91 98765 43210</p>
+                <p className="font-semibold text-lg">+91 88973 12137</p>
               </div>
             </div>
           </a>
@@ -101,7 +100,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-sm text-sand-600 mb-1">Call Us</p>
-              <p className="font-semibold text-sand-800 text-lg">+91 98765 43210</p>
+              <p className="font-semibold text-sand-800 text-lg">+91 88973 12137</p>
             </div>
           </a>
 

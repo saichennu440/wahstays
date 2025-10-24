@@ -34,15 +34,15 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6 animate-fade-in">
-          <span className="block mb-2">Comfort Stays</span>
-          <span className="block text-orange-400">in Coastal Goa</span>
+          <span className=" mb-2">Wah</span>
+          <span className=" text-orange-400"> Stays</span>
         </h1>
 
         <p
           className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto animate-slide-up"
           style={{ animationDelay: '200ms' }}
         >
-          WahStays Experiences that makes you go "Wah"
+          Experiences that makes you go "Wah"
         </p>
 
         <div
@@ -60,7 +60,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/918897312137"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary flex items-center gap-2 w-full sm:w-auto justify-center"

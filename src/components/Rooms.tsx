@@ -132,7 +132,7 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/918897312137"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
@@ -152,11 +152,10 @@ const Rooms = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-sand-800 mb-4">
-            Our Rooms
+            Our Stays
           </h2>
           <p className="text-lg text-sand-600 max-w-2xl mx-auto">
-            Choose from our carefully curated selection of rooms, each designed to provide
-            comfort and tranquility during your Goa getaway.
+            From cozy retreats to luxurious escapes, our carefully chosen stays promise comfort, peace, and memorable moments.
           </p>
         </div>
 

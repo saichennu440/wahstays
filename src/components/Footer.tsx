@@ -2,12 +2,12 @@ import { Instagram, MessageCircle, MapPin, Phone, Mail } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <footer className="bg-sand-800 text-sand-100">
+    <footer className="bg-gray-800 text-sand-100">
       <div className="container-custom section-padding">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h3 className="text-2xl font-display font-bold mb-4 text-orange-400">
-                        <img src="./logo2.png" alt="WahStays Logo" className="h-10 md:h-12" />
+                        <img src="./logo2white.png" alt="WahStays Logo" className="h-10 md:h-12" />
             </h3>
             <p className="text-sand-300 mb-4">
               Experience comfort and authenticity in the heart of coastal Goa. Your perfect stay awaits.
@@ -23,7 +23,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918897312137"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-sand-700 flex items-center justify-center hover:bg-green-600 transition-all duration-300 transform hover:scale-110"
@@ -64,7 +64,7 @@ const Footer = () => {
               <li className="flex items-center gap-3 text-sand-300">
                 <Phone size={20} className="flex-shrink-0 text-ocean-400" />
                 <a href="tel:+919876543210" className="hover:text-ocean-400 transition-colors">
-                  +91 98765 43210
+                  +91 88973 12137
                 </a>
               </li>
               <li className="flex items-center gap-3 text-sand-300">
