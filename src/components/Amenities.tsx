@@ -80,13 +80,13 @@ const AmenityCard = ({ amenity, index }: { amenity: Amenity; index: number }) =>
       }`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
-      <div className="text-ocean-600 mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+      <div className="text-gray-800 mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
         {amenity.icon}
       </div>
-      <h3 className="text-xl font-display font-semibold text-sand-800 mb-2 group-hover:text-ocean-600 transition-colors">
+      <h3 className="text-xl font-display font-semibold text-gray-800 mb-2 group-hover:text-gray-800 transition-colors">
         {amenity.title}
       </h3>
-      <p className="text-sand-600 text-sm leading-relaxed">
+      <p className="text-gray-500 text-sm leading-relaxed">
         {amenity.description}
       </p>
     </div>
@@ -98,10 +98,10 @@ const Amenities = () => {
     <section id="amenities" className="section-padding bg-sand-100">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-sand-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-800 mb-4">
             Amenities & Facilities
           </h2>
-          <p className="text-lg text-sand-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
             Everything you need for a comfortable and memorable stay in Goa.
             We've thought of every detail to ensure your experience is exceptional.
           </p>

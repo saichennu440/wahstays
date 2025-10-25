@@ -21,7 +21,7 @@ const FloatingSocial = () => {
         </div>
 
         <div
-          className={`absolute right-16 top-1/2 -translate-y-1/2 bg-sand-800 text-white px-4 py-2 rounded-lg whitespace-nowrap shadow-lg transition-all duration-300 ${
+          className={`absolute right-16 top-1/2 -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg whitespace-nowrap shadow-lg transition-all duration-300 ${
             instagramHovered
               ? 'opacity-100 translate-x-0 visible'
               : 'opacity-0 translate-x-4 invisible'
@@ -46,7 +46,7 @@ const FloatingSocial = () => {
         </div>
 
         <div
-          className={`absolute right-16 top-1/2 -translate-y-1/2 bg-sand-800 text-white px-4 py-2 rounded-lg whitespace-nowrap shadow-lg transition-all duration-300 ${
+          className={`absolute right-16 top-1/2 -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg whitespace-nowrap shadow-lg transition-all duration-300 ${
             whatsappHovered
               ? 'opacity-100 translate-x-0 visible'
               : 'opacity-0 translate-x-4 invisible'

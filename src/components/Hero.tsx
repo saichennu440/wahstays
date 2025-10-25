@@ -34,8 +34,8 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6 animate-fade-in">
-          <span className=" mb-2">Wah</span>
-          <span className=" text-orange-400"> Stays</span>
+          <span className=" mb-2">wah</span>
+          <span className=" text-orange-400">stays</span>
         </h1>
 
         <p

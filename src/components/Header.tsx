@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-
+import { Link, useNavigate } from 'react-router-dom'
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,6 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { href: '#home', label: 'Home' },
+    { href: '#about', label: 'About' },
     { href: '#rooms', label: 'Rooms' },
     { href: '#amenities', label: 'Amenities' },
     { href: '#gallery', label: 'Gallery' },
@@ -53,6 +54,7 @@ const Header = () => {
             className="h-10 md:h-12"
           />
         </a>
+
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">

@@ -23,13 +23,13 @@ const Contact = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} id="contact" className="section-padding bg-white">
+    <section ref={sectionRef} id="contact" className="section-padding bg-sand-100">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-sand-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-800 mb-4">
             Get in Touch
           </h2>
-          <p className="text-lg text-sand-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
            Every great trip begins with a conversation. Reach out and let’s turn your stay into an unforgettable story.
           </p>
         </div>
@@ -93,27 +93,27 @@ const Contact = () => {
         >
           <a
             href="tel:+919876543210"
-            className="flex items-center gap-4 bg-sand-100 hover:bg-sand-200 p-6 rounded-xl transition-all duration-300 group"
+            className="flex items-center gap-4 bg-sand-300 hover:bg-sand-200 p-6 rounded-xl transition-all duration-300 group"
           >
             <div className="w-12 h-12 rounded-full bg-ocean-100 flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
               <Phone className="text-ocean-600" size={24} />
             </div>
             <div>
-              <p className="text-sm text-sand-600 mb-1">Call Us</p>
-              <p className="font-semibold text-sand-800 text-lg">+91 88973 12137</p>
+              <p className="text-sm text-gray-500 mb-1">Call Us</p>
+              <p className="font-semibold text-gray-800 text-lg">+91 88973 12137</p>
             </div>
           </a>
 
           <a
             href="mailto:hello@wahstays.com"
-            className="flex items-center gap-4 bg-sand-100 hover:bg-sand-200 p-6 rounded-xl transition-all duration-300 group"
+            className="flex items-center gap-4 bg-sand-300 hover:bg-sand-200 p-6 rounded-xl transition-all duration-300 group"
           >
             <div className="w-12 h-12 rounded-full bg-ocean-100 flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
               <Mail className="text-ocean-600" size={24} />
             </div>
             <div>
-              <p className="text-sm text-sand-600 mb-1">Email Us</p>
-              <p className="font-semibold text-sand-800 text-lg">hello@wahstays.com</p>
+              <p className="text-sm text-gray-500 mb-1">Email Us</p>
+              <p className="font-semibold text-gray-800 text-lg">hello@wahstays.com</p>
             </div>
           </a>
         </div>

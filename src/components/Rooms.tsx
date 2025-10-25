@@ -80,7 +80,7 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
       style={{ transitionDelay: `${index * 150}ms` }}
     >
       {room.badge && (
-        <div className="absolute top-4 right-4 z-10 bg-golden-400 text-sand-900 px-3 py-1 rounded-full text-sm font-semibold animate-pulse-soft">
+        <div className="absolute top-4 right-4 z-10 bg-orange-400 text-white px-3 py-1 rounded-full text-sm font-semibold animate-pulse-soft">
           {room.badge}
         </div>
       )}
@@ -96,11 +96,11 @@ const RoomCard = ({ room, index }: { room: Room; index: number }) => {
       </div>
 
       <div className="p-6">
-        <h3 className="text-2xl font-display font-bold text-sand-800 mb-2 group-hover:text-ocean-600 transition-colors">
+        <h3 className="text-2xl font-display font-bold text-gray-800 mb-2 group-hover:text-ocean-600 transition-colors">
           {room.name}
         </h3>
 
-        <p className="text-sand-600 mb-4 line-clamp-2">
+        <p className="text-gray-500 mb-4 line-clamp-2">
           {room.description}
         </p>
 
@@ -151,10 +151,10 @@ const Rooms = () => {
     <section id="rooms" className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-sand-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-800 mb-4">
             Our Stays
           </h2>
-          <p className="text-lg text-sand-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
             From cozy retreats to luxurious escapes, our carefully chosen stays promise comfort, peace, and memorable moments.
           </p>
         </div>

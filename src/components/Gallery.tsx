@@ -115,10 +115,10 @@ const Gallery = () => {
     <section ref={sectionRef} id="gallery" className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-sand-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-800 mb-4">
             Photo Gallery
           </h2>
-          <p className="text-lg text-sand-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
             Take a visual tour through our beautiful property and see what awaits you
             at WahStays.
           </p>
